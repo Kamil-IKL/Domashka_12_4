@@ -1,11 +1,12 @@
 import logging
 
+
 class Runner:
     def __init__(self, name, speed=5):
         if isinstance(name, str):
             self.name = name
         else:
-            raise TypeError(f'Имя может быть только числом, передано {type(name).__name__}')
+            raise TypeError(f'Имя не может быть числом, передано {type(name).__name__}')
         self.distance = 0
         if speed > 0:
             self.speed = speed
@@ -49,10 +50,9 @@ class Tournament:
 
         return finishers
 
-# first = Runner('Вося', 10)
-# second = Runner('Илья', 5)
-# # third = Runner('Арсен', 10)
+#     first = Runner('Вося', -10)
+#     second = Runner('Илья', 5)
+#     # third = Runner('Арсен', 10)
 #
-# t = Tournament(101, first, second)
-# print(t.start())
-
+#     t = Tournament(101, first, second)
+#     print(t.start())
