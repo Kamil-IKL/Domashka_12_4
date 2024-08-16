@@ -1,3 +1,73 @@
-2024-08-16 17:22:51,772 | WARNING | "test_challenge", неверно указан аргумент для Runner(бегуна)
-2024-08-16 17:22:51,772 | INFO | "test_run" выполнен успешно
-2024-08-16 17:22:51,774 | WARNING | "test_walk", неверная скорость для Runner(бегуна): ВАСЯ
+2024-08-16 19:03:57,458 | WARNING | "test_challenge", неверно указан аргумент для Runner(бегуна)
+2024-08-16 19:03:57,459 | INFO | "test_run" выполнен успешно
+2024-08-16 19:03:57,461 | WARNING | "test_walk", неверная скорость для Runner(бегуна): ВАСЯ
+Traceback (most recent call last):
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\12_ikl_M12_DZ_45_unittest.py", line 25, in test_walk
+    self.assertEqual(r1.distance, 50)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Компьютер\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Компьютер\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 100 != 50
+2024-08-16 19:05:58,531 | WARNING | "test_challenge", неверно указан аргумент для Runner(бегуна)
+2024-08-16 19:05:58,532 | INFO | "test_run" выполнен успешно
+2024-08-16 19:05:58,532 | INFO | "test_walk" выполнен успешно
+2024-08-16 19:07:41,277 | WARNING | "test_challenge", неверно указан аргумент для Runner(бегуна)
+2024-08-16 19:07:41,277 | INFO | "test_run" выполнен успешно
+2024-08-16 19:07:41,278 | INFO | "test_walk" выполнен успешно
+2024-08-16 19:08:34,957 | WARNING | "test_challenge", неверно указан аргумент для Runner(бегуна)
+Traceback (most recent call last):
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\12_ikl_M12_DZ_45_unittest.py", line 42, in test_challenge
+    r1 = rt_with_exceptions.Runner('Валера', -25)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\rt_with_exceptions.py", line 14, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -25
+2024-08-16 19:08:34,990 | INFO | "test_run" выполнен успешно
+2024-08-16 19:08:34,991 | INFO | "test_walk" выполнен успешно
+2024-08-16 19:09:24,125 | WARNING | "test_challenge", неверно указан аргумент для Runner(бегуна)
+Traceback (most recent call last):
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\12_ikl_M12_DZ_45_unittest.py", line 42, in test_challenge
+    r1 = rt_with_exceptions.Runner('Валера', -25)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\rt_with_exceptions.py", line 14, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -25
+2024-08-16 19:09:24,128 | INFO | "test_run" выполнен успешно
+2024-08-16 19:09:24,128 | WARNING | "test_walk", неверная скорость для Runner(бегуна): ВАСЯ
+Traceback (most recent call last):
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\12_ikl_M12_DZ_45_unittest.py", line 22, in test_walk
+    r1 = rt_with_exceptions.Runner(name_r1, -10)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\rt_with_exceptions.py", line 14, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -10
+2024-08-16 19:09:59,439 | INFO | "test_challenge" успешно пройден
+2024-08-16 19:09:59,440 | INFO | "test_run" выполнен успешно
+2024-08-16 19:09:59,440 | WARNING | "test_walk", неверная скорость для Runner(бегуна): ВАСЯ
+Traceback (most recent call last):
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\12_ikl_M12_DZ_45_unittest.py", line 22, in test_walk
+    r1 = rt_with_exceptions.Runner(name_r1, -10)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\rt_with_exceptions.py", line 14, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -10
+2024-08-16 19:12:00,609 | INFO | "test_challenge" успешно пройден
+2024-08-16 19:12:00,609 | WARNING | "test_run", неверный тип данных для объекта Runner(бегуна): 123456
+Traceback (most recent call last):
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\12_ikl_M12_DZ_45_unittest.py", line 33, in test_run
+    r2 = rt_with_exceptions.Runner(name_r2, 5)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\rt_with_exceptions.py", line 9, in __init__
+    raise TypeError(f'Имя не может быть числом, передано {type(name).__name__}')
+TypeError: Имя не может быть числом, передано int
+2024-08-16 19:12:00,611 | WARNING | "test_walk", неверная скорость для Runner(бегуна): ВАСЯ
+Traceback (most recent call last):
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\12_ikl_M12_DZ_45_unittest.py", line 22, in test_walk
+    r1 = rt_with_exceptions.Runner(name_r1, -10)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Компьютер\Documents\PYTHON_PROJECT_URBAN\12_Modul_IKL_pythonProject\Domashka_12_4\rt_with_exceptions.py", line 14, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -10
