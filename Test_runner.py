@@ -1,6 +1,11 @@
 import runner
 import unittest
 
+"""
+Это исходник для задания - RunnerTest (из предыдушего задания 12_3)
+лишнее удалил  - см. файл "12_ikl_M12_DZ_45_unittest"
+"""
+
 class RunnerTest(unittest.TestCase):
     is_frozen = False
 
