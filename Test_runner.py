@@ -1,4 +1,4 @@
-import runner
+from Domashka_12_4 import runner
 import unittest
 
 """
