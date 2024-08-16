@@ -9,7 +9,7 @@ from Domashka_12_4 import rt_with_exceptions
 
 logging.basicConfig(
     level=logging.INFO,  # уровень логирования
-    filemode='w',  # Название файла # Режим - 'w' для перезаписи, "а" - для добавления
+    filemode='a',  # Название файла # Режим - 'w' для перезаписи, "а" - для добавления
     filename='runner_tests.log',  # Название файла
     encoding='utf-8',  # Кодировка
     format='%(asctime)s | %(levelname)s | %(message)s')  # Формат вывода
